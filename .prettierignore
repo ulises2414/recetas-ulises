@@ -1,0 +1,10 @@
+.next
+node_modules
+dist
+build
+public
+AGENTS.md
+README.md
+docs
+architecture
+specs
