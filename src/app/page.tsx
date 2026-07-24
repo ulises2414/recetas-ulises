@@ -1,8 +1,12 @@
+import styles from './page.module.css';
+
 export default function HomePage() {
   return (
-    <main style={{ padding: '2rem', fontFamily: 'sans-serif' }}>
-      <h1>Recetas Ulises</h1>
-      <p>Cuaderno de cocina digital personal.</p>
-    </main>
+    <section className={styles.emptyState}>
+      <h1 className={styles.title}>Todavía no hay recetas publicadas.</h1>
+      <p className={styles.description}>
+        Próximamente encontrarás aquí las recetas validadas y sus variaciones.
+      </p>
+    </section>
   );
 }

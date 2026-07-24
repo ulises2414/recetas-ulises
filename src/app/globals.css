@@ -6,17 +6,19 @@
   padding: 0;
 }
 
+:root {
+  --background-color: #fafafa;
+  --surface-color: #ffffff;
+  --text-primary: #1e293b;
+  --text-secondary: #64748b;
+  --accent-color: #c2410c;
+  --border-color: #e2e8f0;
+  --max-width: 1140px;
+}
+
+html,
 body {
-  font-family:
-    system-ui,
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    sans-serif;
-  color: #1a1a1a;
-  background-color: #fdfdfd;
+  height: 100%;
+  background-color: var(--background-color);
+  color: var(--text-primary);
 }
