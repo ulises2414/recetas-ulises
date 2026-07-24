@@ -23,7 +23,7 @@ El objetivo no es almacenar la mayor cantidad posible de recetas, sino aquellas 
 ### Título
 
 - Obligatorio.
-- Debe ser único.
+- No necesariamente debe ser único.
 - Máximo 120 caracteres.
 
 Ejemplo:
