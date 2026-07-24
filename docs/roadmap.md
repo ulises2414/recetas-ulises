@@ -14,7 +14,7 @@
 - Login
 - Crear receta
 - Editar receta
-- Eliminar receta
+- Archivar receta
 - Subir foto principal
 
 ---

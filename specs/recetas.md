@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Permitir al administrador crear, editar, publicar y eliminar recetas para que puedan ser consultadas desde el sitio público.
+Permitir al administrador crear, editar, publicar y archivar recetas para que puedan ser consultadas desde el sitio público.
 
 Las recetas representan la unidad principal del sistema y constituyen el contenido del sitio.
 
@@ -188,7 +188,6 @@ Solo las recetas publicadas serán visibles para el público.
 
 ## Reglas de negocio
 
-- El título debe ser único.
 - El slug debe ser único.
 - El slug se genera automáticamente.
 - Una receta puede editarse en cualquier momento.
